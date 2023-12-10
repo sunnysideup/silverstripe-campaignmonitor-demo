@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "958d3e39a5da057d37190e260d704b7a",
+    "content-hash": "f4cfbfa7abe9103384c0b5ef85b6c94a",
     "packages": [
         {
             "name": "campaignmonitor/createsend-php",
@@ -440,16 +440,16 @@
         },
         {
             "name": "embed/embed",
-            "version": "v4.4.9",
+            "version": "v4.4.10",
             "source": {
                 "type": "git",
                 "url": "https://github.com/oscarotero/Embed.git",
-                "reference": "4ce06ad64bba46decc8738adec0e70f761c76fe9"
+                "reference": "8ac21505d048e8796c6cb9172ec5e81e5d0e0408"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/oscarotero/Embed/zipball/4ce06ad64bba46decc8738adec0e70f761c76fe9",
-                "reference": "4ce06ad64bba46decc8738adec0e70f761c76fe9",
+                "url": "https://api.github.com/repos/oscarotero/Embed/zipball/8ac21505d048e8796c6cb9172ec5e81e5d0e0408",
+                "reference": "8ac21505d048e8796c6cb9172ec5e81e5d0e0408",
                 "shasum": ""
             },
             "require": {
@@ -509,7 +509,7 @@
             "support": {
                 "email": "oom@oscarotero.com",
                 "issues": "https://github.com/oscarotero/Embed/issues",
-                "source": "https://github.com/oscarotero/Embed/tree/v4.4.9"
+                "source": "https://github.com/oscarotero/Embed/tree/v4.4.10"
             },
             "funding": [
                 {
@@ -525,7 +525,7 @@
                     "type": "patreon"
                 }
             ],
-            "time": "2023-12-01T17:45:28+00:00"
+            "time": "2023-12-10T12:30:47+00:00"
         },
         {
             "name": "guzzlehttp/guzzle",
@@ -1689,34 +1689,6 @@
                 "source": "https://github.com/nikic/PHP-Parser/tree/4.x"
             },
             "time": "2023-11-28T19:10:38+00:00"
-        },
-        {
-            "name": "offseat/archer",
-            "version": "dev-main",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/offseat/archer.git",
-                "reference": "7fe14eb8867dd478bfb39da91fe37ed46fb594e4"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/offseat/archer/zipball/7fe14eb8867dd478bfb39da91fe37ed46fb594e4",
-                "reference": "7fe14eb8867dd478bfb39da91fe37ed46fb594e4",
-                "shasum": ""
-            },
-            "default-branch": true,
-            "type": "silverstripe-theme",
-            "extra": {
-                "expose": [
-                    "assets"
-                ]
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "support": {
-                "issues": "https://github.com/offseat/archer/issues",
-                "source": "https://github.com/offseat/archer/tree/0.0.1"
-            },
-            "time": "2023-09-15T03:44:07+00:00"
         },
         {
             "name": "oscarotero/html-parser",
@@ -3726,6 +3698,112 @@
             "time": "2023-07-11T06:11:50+00:00"
         },
         {
+            "name": "sunnysideup/sunnysideup-theme",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sunnysideup/silverstripe-sunnysideup-theme.git",
+                "reference": "be76b3864f26069d47545da2a26a2905641ebe0f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sunnysideup/silverstripe-sunnysideup-theme/zipball/be76b3864f26069d47545da2a26a2905641ebe0f",
+                "reference": "be76b3864f26069d47545da2a26a2905641ebe0f",
+                "shasum": ""
+            },
+            "require": {
+                "silverstripe/framework": "^4.0 || ^5.0",
+                "sunnysideup/webpack_requirements_backend": "dev-master"
+            },
+            "require-dev": {
+                "sunnysideup/sswebpack_engine_only": "dev-master"
+            },
+            "default-branch": true,
+            "type": "silverstripe-theme",
+            "extra": {
+                "installer-name": "sun",
+                "expose": [
+                    "dist"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "description": "SilverStripe theme used in-house by Sunny Side Up",
+            "keywords": [
+                "silverstripe",
+                "theme"
+            ],
+            "support": {
+                "issues": "https://github.com/sunnysideup/silverstripe-sunnysideup-theme/issues",
+                "source": "https://github.com/sunnysideup/silverstripe-sunnysideup-theme/tree/master"
+            },
+            "time": "2023-12-10T01:21:41+00:00"
+        },
+        {
+            "name": "sunnysideup/webpack_requirements_backend",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sunnysideup/silverstripe-webpack_requirements_backend.git",
+                "reference": "6876a02e7e0a0c05dd734476cfd61730363f1497"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sunnysideup/silverstripe-webpack_requirements_backend/zipball/6876a02e7e0a0c05dd734476cfd61730363f1497",
+                "reference": "6876a02e7e0a0c05dd734476cfd61730363f1497",
+                "shasum": ""
+            },
+            "require": {
+                "silverstripe/framework": "^4.0 || ^5.0"
+            },
+            "suggest": {
+                "sunnysideup/sswebpack_engine_only": "Add webpack itself"
+            },
+            "default-branch": true,
+            "type": "silverstripe-vendormodule",
+            "extra": {
+                "installer-name": "webpack_requirements_backend"
+            },
+            "autoload": {
+                "psr-4": {
+                    "Sunnysideup\\WebpackRequirementsBackend\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Nicolaas Francken",
+                    "email": "modules@sunnysideup.co.nz",
+                    "role": "lead developer"
+                }
+            ],
+            "description": "Silverstripe Module that provides an alternative to the standard Silvertripe Requirements Backend class so that your application can run webpack.",
+            "keywords": [
+                "Silverstripe-CMS",
+                "back-end",
+                "cms",
+                "css",
+                "front-end",
+                "javascript",
+                "module bundler",
+                "npm",
+                "requirements",
+                "silverstripe",
+                "theme-ing",
+                "webpack"
+            ],
+            "support": {
+                "issues": "https://github.com/sunnysideup/silverstripe-webpack_requirements_backend/issues",
+                "source": "https://github.com/sunnysideup/silverstripe-webpack_requirements_backend/tree/master"
+            },
+            "time": "2023-10-19T02:08:19+00:00"
+        },
+        {
             "name": "symfony/cache",
             "version": "6.4.x-dev",
             "source": {
@@ -5581,7 +5659,8 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
-        "sunnysideup/campaignmonitor": 20
+        "sunnysideup/campaignmonitor": 20,
+        "sunnysideup/sunnysideup-theme": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,
