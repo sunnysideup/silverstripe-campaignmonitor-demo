@@ -1,6 +1,11 @@
+
+/app/_config/campaignmonitor-api.yml
+
 ./ssbak-tmp-dir
 ./release.log
 ./.vscode
+
+
 
 release.log
 ssbak-tmp-dir/
@@ -18,6 +23,7 @@ npm-debug.log
 /.ddev
 /.idea
 .graphql-generated/
+/themes/
 
 public/_graphql/
 

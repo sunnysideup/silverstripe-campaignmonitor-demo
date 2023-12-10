@@ -1,36 +1,46 @@
 {
-    "name": "sunnysideup/campaignmonitor-demo",
-    "description": "Demo for our campaign monitor module",
-    "type": "silverstripe-recipe",
-    "require": {
-        "sunnysideup/campaignmonitor": "dev-master"
-    },
-    "license": "BSD-3-Clause",
-    "authors": [
-        {
-            "name": "Nicolaas"
-        }
-    ],
-    "minimum-stability": "dev",
-    "config": {
-        "allow-plugins": {
-            "silverstripe/recipe-plugin": true,
-            "silverstripe/vendor-plugin": true
-        }
-    },
-    "extra": {
-        "project-files-installed": [
-            ".htaccess",
-            "app/.htaccess",
-            "app/_config/mimevalidator.yml",
-            "app/_config/mysite.yml",
-            "app/src/Page.php",
-            "app/src/PageController.php"
-        ],
-        "public-files-installed": [
-            ".htaccess",
-            "index.php",
-            "web.config"
-        ]
+  "name": "sunnysideup/campaignmonitor-demo",
+  "description": "Demo for our campaign monitor module",
+  "type": "silverstripe-recipe",
+  "require": {
+    "sunnysideup/campaignmonitor": "dev-master",
+    "offseat/archer": "dev-main"
+  },
+  "license": "BSD-3-Clause",
+  "authors": [
+    {
+      "name": "Nicolaas"
     }
+  ],
+  "minimum-stability": "dev",
+  "config": {
+    "allow-plugins": {
+      "silverstripe/recipe-plugin": true,
+      "silverstripe/vendor-plugin": true
+    }
+  },
+  "extra": {
+    "project-files-installed": [
+      ".htaccess",
+      "app/.htaccess",
+      "app/_config/mimevalidator.yml",
+      "app/_config/mysite.yml",
+      "app/src/Page.php",
+      "app/src/PageController.php"
+    ],
+    "public-files-installed": [
+      ".htaccess",
+      "index.php",
+      "web.config"
+    ]
+  },
+  "autoload": {
+    "psr-4": {
+      "Sunnysideup\\CampainMonitorDemo\\": "app/src/"
+    },
+    "files": [
+      "app/src/Page.php",
+      "app/src/PageController.php"
+    ]
+  }
 }
