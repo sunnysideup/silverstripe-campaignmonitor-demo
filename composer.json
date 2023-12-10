@@ -4,7 +4,7 @@
   "type": "silverstripe-recipe",
   "require": {
     "sunnysideup/campaignmonitor": "dev-master",
-    "offseat/archer": "dev-main"
+    "sunnysideup/sunnysideup-theme": "dev-main"
   },
   "license": "BSD-3-Clause",
   "authors": [
@@ -17,7 +17,8 @@
     "allow-plugins": {
       "silverstripe/recipe-plugin": true,
       "silverstripe/vendor-plugin": true
-    }
+    },
+    "sort-packages": true
   },
   "extra": {
     "project-files-installed": [

@@ -1,0 +1,13 @@
+---
+Name: app_theme
+---
+SilverStripe\View\SSViewer:
+  themes:
+    - 'archer'
+    - '$default'
+---
+Only:
+  envvarset: 'SS_SHOW_SOURCE_COMMENTS'
+---
+SilverStripe\View\SSViewer:
+  source_file_comments: true
