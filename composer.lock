@@ -3592,12 +3592,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sunnysideup/silverstripe-campaignmonitor.git",
-                "reference": "141b9e9f5096c2fdd67aea9a0637601dc18c5350"
+                "reference": "1acab33004c2fa83f949b9104d8c79d06d748b84"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sunnysideup/silverstripe-campaignmonitor/zipball/141b9e9f5096c2fdd67aea9a0637601dc18c5350",
-                "reference": "141b9e9f5096c2fdd67aea9a0637601dc18c5350",
+                "url": "https://api.github.com/repos/sunnysideup/silverstripe-campaignmonitor/zipball/1acab33004c2fa83f949b9104d8c79d06d748b84",
+                "reference": "1acab33004c2fa83f949b9104d8c79d06d748b84",
                 "shasum": ""
             },
             "require": {
@@ -3639,9 +3639,9 @@
             ],
             "support": {
                 "issues": "https://github.com/sunnysideup/silverstripe-campaignmonitor/issues",
-                "source": "https://github.com/sunnysideup/silverstripe-campaignmonitor/tree/master"
+                "source": "https://github.com/sunnysideup/silverstripe-campaignmonitor/tree/11.1.2"
             },
-            "time": "2023-10-06T03:52:37+00:00"
+            "time": "2023-12-10T20:49:44+00:00"
         },
         {
             "name": "sunnysideup/campaignmonitor-api",
